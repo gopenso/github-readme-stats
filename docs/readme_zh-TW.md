@@ -37,6 +37,8 @@
     <a href="/docs/readme_fr.md">Français </a>
     ·
     <a href="/docs/readme_cn.md">简体中文</a>
+    .
+    <a href="/docs/readme_zh-TW.md">繁體中文</a>
     ·
     <a href="/docs/readme_es.md">Español</a>
     ·
@@ -55,8 +57,6 @@
     <a href="/docs/readme_np.md">नेपाली</a>
     .
     <a href="/docs/readme_tr.md">Türkçe</a>
-    .
-    <a href="/docs/readme_zh-TW.md">繁體中文</a>
   </p>
 </p>
 <p align="center">喜歡這個專案嗎？考慮 <a href="https://www.paypal.me/anuraghazra">捐款</a> 來讓這個專案變更好吧！
