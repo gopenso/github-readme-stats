@@ -138,7 +138,7 @@ _Note: 如果你是自行部署這個專案的伺服器，那預設會加入私�
 
 ### 主題
 
-你可以通過現有的主題來自訂你的卡片，可以省去 [自己更改參數](#customization)的麻煩。
+你可以通過現有的主題來自訂你的卡片，可以省去 [自己更改參數](#自定義)的麻煩。
 
 用 `&theme=THEME_NAME` 參數來選擇主題，就像這樣：
 
@@ -246,7 +246,7 @@ Endpoint: `api/pin?username=anuraghazra&repo=github-readme-stats`
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats)](https://github.com/anuraghazra/github-readme-stats)
 
-用 [show_owner](#customization) 變數來顯示 repo 的擁有者名稱。
+用 [show_owner](#自定義) 變數來顯示 repo 的擁有者名稱。
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&show_owner=true)](https://github.com/anuraghazra/github-readme-stats)
 
