@@ -104,7 +104,7 @@ Your small help goes a long way. :heart:
 
 _NOTE：共有 S+ (top 1%), S (top 25%), A++ (top 45%), A+ (top 60%), and B+ (everyone) 這幾個等級。
 值是用 [cumulative distribution function](https://en.wikipedia.org/wiki/Cumulative_distribution_function) 用 commits、contributions、issues、stars、pull requests、followers，還有 擁有的 repositories 計算出的。
-實際實作方法詳見 [src/calculateRank.js](./src/calculateRank.js)_
+實際實作方法詳見 [src/calculateRank.js](../src/calculateRank.js)_
 
 ### 隱藏個別統計數據
 
@@ -166,7 +166,7 @@ dark, radical, merko, gruvbox, tokyonight, onedark, cobalt, synthwave, highcontr
 - `border_color` - 卡片的邊框顏色 _(hex color)_. （如果`hide_border`沒有開啟，則不會有效果）
 - `bg_color` - 卡片背景顏色 _(hex color)_ **或** 用 _angle,start,end_ 表示漸層色
 - `hide_border` - 隱藏卡片的邊框 _(boolean)_
-- `theme` - 從 [全部現有主題](./themes/README.md) 中選擇的主題名稱
+- `theme` - 從 [全部現有主題](../themes/README.md) 中選擇的主題名稱
 - `cache_seconds` - 手動設定 cache header _(min: 1800, max: 86400)_
 - `locale` - 設定卡片語言 _(e.g. cn, zh-tw, de, es, etc.)_
 - `border_radius` - 卡片加圓角
