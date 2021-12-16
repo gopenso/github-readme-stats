@@ -152,7 +152,7 @@ dark, radical, merko, gruvbox, tokyonight, onedark, cobalt, synthwave, highcontr
 - `hide_border` - 카드의 테두리 표시 여부 _(boolean)_
 - `theme` - 테마의 이름, [사용 가능한 모든 테마](../themes/README.md) 에서 선택
 - `cache_seconds` - 수동으로 캐시 헤더 설정 _(min: 1800, max: 86400)_
-- `locale` - 카드에 표시할 언어 _(e.g. kr, cn, de, es, etc.)_
+- `locale` - 카드에 표시할 언어 _(e.g. kr, cn, zh-tw, de, es, etc.)_
 
 ##### 배경에 그라데이션 주기
 

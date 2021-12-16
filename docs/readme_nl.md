@@ -145,7 +145,7 @@ Je kan het uiterlijk van je `Statistieken kaart` of `Repo kaart` aanpassen hoe j
 - `hide_border` - Verbergt de rand van de kaart _(boolean)_
 - `theme` - Naam van het thema, kies uit [alle beschikbare thema\'s](../themes/README.md)
 - `cache_seconds` - Stel de cache header handmatig in _(min: 1800, max: 86400)_
-- `locale` - Stel taal van de kaart in _(e.g. cn, de, es, etc.)_
+- `locale` - Stel taal van de kaart in _(e.g. cn, zh-tw, de, es, etc.)_
 
 ##### Kleurenverloop in bg_color (achtergrond kleur):
 

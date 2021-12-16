@@ -170,7 +170,7 @@ You can customize the appearance of your `Stats Card` or `Repo Card` however you
 - `hide_border` - 隱藏卡片的邊框 _(boolean)_
 - `theme` - 從 [全部現有主題](./themes/README.md) 中選擇的主題名稱
 - `cache_seconds` - 手動設定 cache header _(min: 1800, max: 86400)_
-- `locale` - 設定卡片語言 _(e.g. cn, de, es, etc.)_
+- `locale` - 設定卡片語言 _(e.g. cn, zh-tw, de, es, etc.)_
 - `border_radius` - 卡片加圓角
 
 ##### bg_color 的漸層設定

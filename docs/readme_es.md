@@ -145,7 +145,7 @@ Puedes personalizar el aspecto de tu `Tarjeta de Estadísticas` o `Tarjeta de Re
 - `hide_border` - Oculta el borde de la tarjeta _(booleano)_
 - `theme` - Nombre del tema, elige uno de [todos los temas disponible ](../themes/README.md)
 - `cache_seconds` - Cache _(min: 1800, max: 86400)_
-- `locale` - configurar el idioma en la tarjeta _(p.ej. cn, de, es, etc.)_
+- `locale` - configurar el idioma en la tarjeta _(p.ej. cn, zh-tw, de, es, etc.)_
 
 ##### Gradiente en `bg_color`
 

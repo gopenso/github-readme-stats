@@ -141,7 +141,7 @@ dark, radical, merko, gruvbox, tokyonight, onedark, cobalt, synthwave, highcontr
 - `hide_border` - 隐藏卡的边框 _(布尔值)_
 - `theme` - 主题名称，从[所有可用主题](../themes/README.md)中选择
 - `cache_seconds` - 手动设置缓存头 _（最小值: 1800，最大值: 86400）_
-- `locale` - 在卡片中设置语言 _(例如 cn, de, es, 等等)_
+- `locale` - 在卡片中设置语言 _(例如 cn, zh-tw, de, es, 等等)_
 
 ##### bg_color 渐变
 

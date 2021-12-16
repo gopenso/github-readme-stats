@@ -146,7 +146,7 @@ dark, radical, merko, gruvbox, tokyonight, onedark, cobalt, synthwave, highcontr
 - `hide_border` - Kartın çerçevelerini gizler _(boolean)_
 - `theme` - Temanın rengi [tüm temalar](./themes/README.md)
 - `cache_seconds` - Manuel olarak cache'i belirleyebilirsiniz _(en az: 1800, en fazla: 86400)_
-- `locale` - Karttaki dili seçebilirsiniz _(örneğin; tr, cn, de, es, vb.)_
+- `locale` - Karttaki dili seçebilirsiniz _(örneğin; tr, cn, zh-tw, de, es, vb.)_
 
 ##### bg_color'da Gradient
 
