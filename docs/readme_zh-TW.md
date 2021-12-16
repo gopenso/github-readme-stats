@@ -102,7 +102,7 @@ Your small help goes a long way. :heart:
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
 ```
 
-_注：共有 S+ (top 1%), S (top 25%), A++ (top 45%), A+ (top 60%), and B+ (everyone) 這幾個等級。
+_NOTE：共有 S+ (top 1%), S (top 25%), A++ (top 45%), A+ (top 60%), and B+ (everyone) 這幾個等級。
 值是 用 [cumulative distribution function](https://en.wikipedia.org/wiki/Cumulative_distribution_function) 用 commits、contributions、issues、stars、pull requests、followers，還有 擁有的 repositories 計算出的。
 實際實作方法詳見 [src/calculateRank.js](./src/calculateRank.js)_
 
@@ -155,8 +155,6 @@ dark, radical, merko, gruvbox, tokyonight, onedark, cobalt, synthwave, highcontr
 你可以到 [全部現有主題](./themes/README.md) 看看主題預覽，或查看 [主題設定檔](./themes/index.js) ，如果你想要的話 **也可以貢獻個新的主題** :D
 
 ### 自定義
-
-You can customize the appearance of your `Stats Card` or `Repo Card` however you wish with URL params.
 
 你可以通過給 URL 參數的方式，來自定義你的`Stats Card` 或者是 `Repo Card` 樣式。
 
@@ -230,13 +228,13 @@ You can customize the appearance of your `Stats Card` or `Repo Card` however you
 
 # 更多 github 釘選
 
-GitHub extra pins allow you to pin more than 6 repositories in your profile using a GitHub readme profile.
+更多 github 釘選功能，讓你可以在簡介 Readme 中，釘選超過6個 repositories。
 
-Yay! You are no longer limited to 6 pinned repositories.
+沒錯！你不再受到只能有6個 repositories 釘選的限制啦。
 
-### Usage
+### 用法
 
-Copy-paste this code into your readme and change the links.
+複製貼上這段文字到你的 readme 中，然後更改一下連結。
 
 Endpoint: `api/pin?username=anuraghazra&repo=github-readme-stats`
 
@@ -248,19 +246,19 @@ Endpoint: `api/pin?username=anuraghazra&repo=github-readme-stats`
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats)](https://github.com/anuraghazra/github-readme-stats)
 
-Use [show_owner](#customization) variable to include the repo's owner username
+用 [show_owner](#customization) 變數來顯示 repo 的擁有者名稱。
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&show_owner=true)](https://github.com/anuraghazra/github-readme-stats)
 
 # 熱門語言統計卡
 
-The top languages card show a GitHub user's most frequently used top language.
+熱門語言統計卡會顯示提供之 GitHub 用戶中最常用到的語言
 
-_NOTE: Top Languages does not indicate my skill level or anything like that, it's a GitHub metric of which languages have the most code on GitHub. It's a new feature of github-readme-stats._
+_NOTE: 熱門語言排名並不代表技能、等級之類的排名，純粹是 Github 上用某個語言寫的程式碼多少的指標而已。這是一個 github-readme-stats 的新功能_
 
-### Usage
+### 用法
 
-Copy-paste this code into your readme and change the links.
+複製貼上這段文字到你的 readme 中，然後更改一下連結。
 
 Endpoint: `api/top-langs?username=anuraghazra`
 
@@ -268,33 +266,33 @@ Endpoint: `api/top-langs?username=anuraghazra`
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
 ```
 
-### Exclude individual repositories
+### 排除個別 repositories
 
-You can use `?exclude_repo=repo1,repo2` parameter to exclude individual repositories.
+你可以用 `?exclude_repo=repo1,repo2` 參數來排除 repositories。
 
 ```md
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&exclude_repo=github-readme-stats,anuraghazra.github.io)](https://github.com/anuraghazra/github-readme-stats)
 ```
 
-### Hide individual languages
+### 隱藏個別語言
 
-You can use `?hide=language1,language2` parameter to hide individual languages.
+你可以用 `?hide=language1,language2` 參數來隱藏個別語言。
 
 ```md
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&hide=javascript,html)](https://github.com/anuraghazra/github-readme-stats)
 ```
 
-### Show more languages
+### 顯示更多語言
 
-You can use the `&langs_count=` option to increase or decrease the number of languages shown on the card. Valid values are integers between 1 and 10 (inclusive), and the default is 5.
+你可以用 `&langs_count=` 選項來增減卡片上列出的語言數量，可選擇1-10（含），預設是5。
 
 ```md
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&langs_count=8)](https://github.com/anuraghazra/github-readme-stats)
 ```
 
-### Compact Language Card Layout
+### Compact 排列的語言卡
 
-You can use the `&layout=compact` option to change the card design.
+你可以用 `&layout=compact` 選項來更改卡片的設計。
 
 ```md
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
@@ -310,7 +308,7 @@ You can use the `&layout=compact` option to change the card design.
 
 # Wakatime 一周統計卡片
 
-Change the `?username=` value to your [Wakatime](https://wakatime.com) username.
+將 `?username=` 的值換成你的 [Wakatime](https://wakatime.com) 用戶名稱。
 
 ```md
 [![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=willianrod)](https://github.com/anuraghazra/github-readme-stats)
@@ -328,63 +326,63 @@ Change the `?username=` value to your [Wakatime](https://wakatime.com) username.
 
 ---
 
-### All Demos
+### 所有 Demos
 
-- Default
+- 預設
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)
 
-- Hiding specific stats
+- 隱藏特定統計數據
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&hide=contribs,issues)
 
-- Showing icons
+- 顯示 icons
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&hide=issues&show_icons=true)
 
-- Customize Border Color
+- 自訂邊框顏色
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&border_color=2e4058)
 
-- Include All Commits
+- 計算所有 Commits
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&include_all_commits=true)
 
-- Themes
+- 主題
 
-Choose from any of the [default themes](#themes)
+可以從 [現有的主題](#主題) 選擇任何一個
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=radical)
 
-- Gradient
+- 漸層
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
 
-- Customizing stats card
+- 自定義統計卡片
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api/?username=anuraghazra&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
 
-- Setting card locale
+- 設定卡片顯示語言
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api/?username=anuraghazra&locale=es)
 
-- Customizing repo card
+- 自定義 repo 卡
 
 ![Customized Card](https://github-readme-stats.vercel.app/api/pin?username=anuraghazra&repo=github-readme-stats&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
 
-- Top languages
+- 熱門語言
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
 
-- Wakatime card
+- Wakatime 卡
 
 [![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=willianrod)](https://github.com/anuraghazra/github-readme-stats)
 
 ---
 
-### Quick Tip (Align The Repo Cards)
+### Quick Tip (對齊 Repo Cards)
 
-You usually won't be able to layout the images side by side. To do that you can use this approach:
+你可能不知道怎樣可以將圖片排在一起，想要達到那樣的效果可以試試看下面這種寫法：
 
 ```html
 <a href="https://github.com/anuraghazra/github-readme-stats">
@@ -397,46 +395,45 @@ You usually won't be able to layout the images side by side. To do that you can 
 
 ## 自己部署伺服器
 
-#### [Check Out Step By Step Video Tutorial By @codeSTACKr](https://youtu.be/n6d4KHSKqGk?t=107)
+#### [看看 @codeSTACKr 的詳細教學影片](https://youtu.be/n6d4KHSKqGk?t=107)
 
-Since the GitHub API only allows 5k requests per hour, my `https://github-readme-stats.vercel.app/api` could possibly hit the rate limiter. If you host it on your own Vercel server, then you don't have to worry about anything. Click on the deploy button to get started!
+因為 Github api 每小時只能允許5千次 requests，我的 `https://github-readme-stats.vercel.app/api` 很可能會達到 requests 上限。如果你用自己的 vercel server 的話，那就不需要擔心這件事了。點擊 deploy 按鈕開始吧！
 
-NOTE: Since [#58](https://github.com/anuraghazra/github-readme-stats/pull/58) we should be able to handle more than 5k requests and have no issues with downtime :D
+NOTE: 從 [#58](https://github.com/anuraghazra/github-readme-stats/pull/58) 之後，我們應該可以處理超過5千 requests 啦，而且沒有當機的問題 :D
 
 [![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/anuraghazra/github-readme-stats)
 
 <details>
- <summary><b> Guide on setting up Vercel  🔨 </b></summary>
+ <summary><b> Vercel 設置指南  🔨 </b></summary>
 
-1. Go to [vercel.com](https://vercel.com/)
-1. Click on `Log in`
+1. 到 [vercel.com](https://vercel.com/)
+1. 點擊 `Log in`
    ![](https://files.catbox.moe/tct1wg.png)
-1. Sign in with GitHub by pressing `Continue with GitHub`
+1. 點擊 `Continue with GitHub` 用 Github 登入
    ![](https://files.catbox.moe/btd78j.jpeg)
-1. Sign into GitHub and allow access to all repositories, if prompted
-1. Fork this repo
-1. After forking the repo, open the [`vercel.json`](https://github.com/anuraghazra/github-readme-stats/blob/master/vercel.json#L5) file and change the `maxDuration` field to `10`
-1. Go back to your [Vercel dashboard](https://vercel.com/dashboard)
-1. Select `Import Project`
+1. 登入 Github ，允許取用所有 repositories 的存取權（如果 vercel 有指示的話）
+1. Fork 這個 repo
+1. fork 這個 repo 後，打開檔案 [`vercel.json`](https://github.com/anuraghazra/github-readme-stats/blob/master/vercel.json#L5) ，將 `maxDuration` 欄位改成 `10`
+1. 回到你的 [Vercel dashboard](https://vercel.com/dashboard)
+1. 選擇 `Import Project`
    ![](https://files.catbox.moe/qckos0.png)
-1. Select `Import Git Repository`
+1. 選擇 `Import Git Repository`
    ![](https://files.catbox.moe/pqub9q.png)
-1. Select root and keep everything as is, just add your environment variable named PAT_1 (as shown), which will contain a personal access token (PAT), which you can easily create [here](https://github.com/settings/tokens/new) (leave everything as is, just name it something, it can be anything you want)
+1. 選擇 root ，其他選項保持不變，填入一個名稱為 PAT_1 的環境變數（如圖所示），其值為一個 personal access token (PAT)，你可以輕易的 [建立](https://github.com/settings/tokens/new) 一個（隨意命一個名字，其他選項維持默認即可）
    ![](https://files.catbox.moe/0ez4g7.png)
-1. Click deploy, and you're good to go. See your domains to use the API!
+1. 點擊 deploy ，然後就完成啦！取得你的域名開始使用API。
 
 </details>
 
-## :sparkling_heart: Support the project
+## :sparkling_heart: 支持專案
 
-I open-source almost everything I can, and I try to reply to everyone needing help using these projects. Obviously,
-this takes time. You can use this service for free.
+我將幾乎所有我可以開源的東西都開源了，並且試著回應每個人，幫助大家開始使用這個專案，很顯然的，這是非常花時間的一件事，你可以免費的使用這個服務。
 
-However, if you are using this project and are happy with it or just want to encourage me to continue creating stuff, there are few ways you can do it :-
+如果你使用這個專案，而且願意鼓勵我持續的創新，可以通過下面幾種方式：
 
-- Giving proper credit when you use github-readme-stats on your readme, linking back to it :D
-- Starring and sharing the project :rocket:
-- [![paypal.me/anuraghazra](https://ionicabizau.github.io/badges/paypal.svg)](https://www.paypal.me/anuraghazra) - You can make one-time donations via PayPal. I'll probably buy a ~~coffee~~ tea. :tea:
+- 在 readme 中用到 github-readme-stats 時，加入 github-readme-stats 的連結 :D
+- Starring 且分享這個專案 :rocket:
+- [![paypal.me/anuraghazra](https://ionicabizau.github.io/badges/paypal.svg)](https://www.paypal.me/anuraghazra) - 你可以用PayPal一次性捐款，我可能會買一杯~~咖啡~~ 茶 :tea:
 
 Thanks! :heart:
 
