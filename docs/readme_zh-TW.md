@@ -103,7 +103,7 @@ Your small help goes a long way. :heart:
 ```
 
 _NOTE：共有 S+ (top 1%), S (top 25%), A++ (top 45%), A+ (top 60%), and B+ (everyone) 這幾個等級。
-值是 用 [cumulative distribution function](https://en.wikipedia.org/wiki/Cumulative_distribution_function) 用 commits、contributions、issues、stars、pull requests、followers，還有 擁有的 repositories 計算出的。
+值是用 [cumulative distribution function](https://en.wikipedia.org/wiki/Cumulative_distribution_function) 用 commits、contributions、issues、stars、pull requests、followers，還有 擁有的 repositories 計算出的。
 實際實作方法詳見 [src/calculateRank.js](./src/calculateRank.js)_
 
 ### 隱藏個別統計數據
@@ -152,7 +152,7 @@ dark, radical, merko, gruvbox, tokyonight, onedark, cobalt, synthwave, highcontr
 
 <img src="https://res.cloudinary.com/anuraghazra/image/upload/v1595174536/grs-themes_l4ynja.png" alt="GitHub Readme Stats Themes" width="600px"/>
 
-你可以到 [全部現有主題](./themes/README.md) 看看主題預覽，或查看 [主題設定檔](./themes/index.js) ，如果你想要的話 **也可以貢獻個新的主題** :D
+你可以到 [全部現有主題](../themes/README.md) 看看主題預覽，或查看 [主題設定檔](../themes/index.js) ，如果你想要的話 **也可以貢獻個新的主題** :D
 
 ### 自定義
 
